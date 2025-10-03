@@ -1,4 +1,4 @@
-#Variaveis são espaços na memória que servem para armazenar valores
+Variaveis são espaços na memória que servem para armazenar valores
 
 # Podemos definir variéveis com o nome dela, seguido pelo
 # sinal de igual,que siginifica "atribuir" e deppois pelo valor.
