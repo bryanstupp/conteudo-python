@@ -16,4 +16,7 @@ nota_3 = float(input("digite a nota 3: "))
 nota_4 = float(input("digite a nota 4: "))
 
 soma = nota_1 + nota_2 + nota_3 + nota_4
-media =
+media =soma / 4
+print("A média é:",media)
+
+
