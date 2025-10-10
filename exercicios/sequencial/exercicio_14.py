@@ -1,4 +1,11 @@
-excedente = float(input("quanto joão pegou: "))
+peso = 50
+multa_kg = 4
 
-multa = excedente * 0,08
-print("A multa que ele vai pagar é: ",multa)
+peso_peixe = float(input("Informe o peso total: "))
+
+excedente = peso_peixe - peso
+multa = excedente * multa_kg
+
+print("Houveram",excedente,"Kg de peixe a mais permitido")
+
+print("O valor da multa é R$",multa)
