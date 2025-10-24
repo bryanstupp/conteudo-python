@@ -1,6 +1,6 @@
-tam = float(input("digite o tamanho do arquivo para download em megas:"))
-vel = float(input("digite a velocidade da internet em mbps: "))
-r = tam * vel
-r1 = r / 60
-r2 = r1 / 60
-print("O tempo de espera é:",r2,"minutos")
+tamanho_arquivo = float(input("Informe o tamanho do arquivo (em MB): "))
+velocidade_internet = float(input("Informe a velocidade da internet (em Mbps): "))
+velocidade_MBps = velocidade_internet / 8
+tempo_segundos = tamanho_arquivo / velocidade_MBps
+tempo_minutos = tempo_segundos / 60
+print("Tempo aproximado de download: ",tempo_minutos,"minutos")
